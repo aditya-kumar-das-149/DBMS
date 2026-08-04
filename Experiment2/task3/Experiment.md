@@ -13,6 +13,7 @@ Table 'fruit' has the list of all fruits available in the market, and some of th
 
 Write a query to find the list of fruits available in the supermarket. The f_name column has the name of the fruits and inv_name has the name of the items in the inventory. Output the name of the fruits.
 
+
 SQL Queries Used
 Find Common Fruits
 /* Write a query to find the list of fruits available in the supermarket.
@@ -20,6 +21,9 @@ Find Common Fruits
 SELECT f_name FROM fruit
 INTERSECT
 SELECT inv_name FROM inventory;
+
+
+
 Output
 ┌────────────┐
 │   f_name   │
@@ -32,6 +36,9 @@ Output
 │ Pineapple  │
 │ Watermelon │
 └────────────┘
+
+
+
 Output Screenshot
 <img width="1866" height="865" alt="image (4)" src="https://github.com/user-attachments/assets/c826e737-e336-4c42-bae9-900055eadad2" />
 
